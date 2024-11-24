@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        /* Home bar and hamburger menu */
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            z-index: 1;
+        }
+
+        .navbar a {
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu-bar {
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+
+        .menu-bar div {
+            width: 30px;
+            height: 5px;
+            background-color: white;
+            margin: 6px 0;
+        }
+
+        /* Image and welcome message */
+        .welcome-section {
+            text-align: center;
+            margin-top: 80px; /* space for the navbar */
+        }
+
+        .welcome-section h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .welcome-section img {
+            width: 70%; /* adjust size of the image */
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Buttons at the bottom */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .button-container a {
+            text-decoration: none;
+            color: white;
+            background-color: #333;
+            padding: 15px 30px;
+            margin: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        .button-container a:hover {
+            background-color: #555;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation bar with hamburger menu -->
+    <div class="navbar">
+        <div class="menu-bar">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Welcome section with image -->
+    <div class="welcome-section">
+        <h1>Welcome to Our Website</h1>
+        <p>Popular</p>
+        <img src="your-image.jpg" alt="Welcome Image"> <!-- Replace with your image URL -->
+    </div>
+
+    <!-- Buttons linking to other pages -->
+    <div class="button-container">
+        <a href="page1.html">Page 1</a>
+        <a href="page2.html">Page 2</a>
+        <a href="page3.html">Page 3</a>
+    </div>
+
+</body>
+</html>
